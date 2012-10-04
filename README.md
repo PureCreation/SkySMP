@@ -1,5 +1,4 @@
 SkySMP
 ======
 
-Not the Official Skyblock plugin
-Nothing to be seen here
+the Official Skybrok plugin
