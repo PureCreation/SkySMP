@@ -178,7 +178,6 @@ public class skySMP extends JavaPlugin
 	        for (int y = ISLANDS_Y - 200; y < world.getMaxHeight(); y++)
 	          for (int z = island.z - 50; z < island.z + 50; z++) {
 	            Block block = world.getBlockAt(x, y, z);
-	    	    if (!hasParty(playerName)) {
 	            if (block.getTypeId() != 0)
 	              block.setTypeId(0);
 	          }
