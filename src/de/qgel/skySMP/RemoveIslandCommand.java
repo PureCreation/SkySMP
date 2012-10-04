@@ -21,10 +21,6 @@ public class RemoveIslandCommand
       return false;
     }
     Player player = (Player) sender;
-    if(!player.hasPermission("skyblock.removeisland")) {
-    	player.sendMessage("You don't have permission to use that command!");
-    	return true;
-    	}
 
     if (split.length == 1) {
       String playerName = split[0];
@@ -33,7 +29,7 @@ public class RemoveIslandCommand
         sender.sendMessage(ChatColor.DARK_AQUA + "Player \"" + playerName + "\" island removed");
         return true;
       }
-      sender.sendMessage(ChatColor.DARK_AQUA + "Player \"" + playerName + "\" doesn't have an island registered.");
+      sender.sendMessage(ChatColor.RED + "Player \"" + playerName + "\" doesn't have an island registered.");
       return true;
     }
 
