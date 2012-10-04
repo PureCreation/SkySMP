@@ -54,7 +54,7 @@ public class PlayerEventListener implements Listener {
         to.setY(0);
         Player player = event.getPlayer();   
         
-        if (from.distance(to) > 1.7) {        	
+        if (from.distance(to) > 2) {        	
             player.kickPlayer("You moved to fast!");
     	    for (Player player1 : Bukkit.getServer().getOnlinePlayers()) {
 			if (player1.isOp()) {
