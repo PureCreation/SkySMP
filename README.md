@@ -1,4 +1,4 @@
 SkySMP
 ======
 
-the Official Skybrok plugin
+the Oficia1 Skybrok pugin
