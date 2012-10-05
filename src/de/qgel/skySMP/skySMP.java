@@ -50,7 +50,7 @@ public class skySMP extends JavaPlugin
     PluginDescriptionFile pdfFile = getDescription();
     System.out.println(pdfFile.getName() + " version " + pdfFile.getVersion() + " is now Disabled!");
   }
-  public void onEnable()
+  //public void onEnableL()L
   {
 	// Register events
 	plugin = new PlayerEventListener(this);
